@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <!--Created by Marwa Mahmoud on June 2021- Centennial College Summer2021 -->
+<head>
+    <meta charset="utf-8" />
+    <title>Cats Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>Cats Photo Gallery</h1>
+        </header>
+
+        <article>
+            <div id="leftarrow">
+                <p>&lt;</p>
+            </div>
+            <figure id="fig2">
+                <img width="360" height="202" />
+            </figure>
+            <figure id="fig3">
+                <img width="480" height="270" />
+            </figure>
+            <figure id="fig4">
+                <img width="360" height="202" />
+            </figure>
+            <div id="rightarrow">
+                <p>&gt;</p>
+            </div>
+            <div id="fiveButton">
+                <p>Show more images</p>
+            </div>
+        </article>
+
+        <footer>
+            <p style="color: bisque;">Favorites</p>
+            <br>
+            <table>
+                <tr>
+                    <td style="padding: 5px;">
+                        <img name="favorites" height="100" onclick="removePicture(0)" />
+                        <a href="#" onclick="favPictures(0)" id="link0" style="display: none;">Remove</a>
+                    </td>
+                    <td style="padding: 5px;">
+                        <img name="favorites" height="100" onclick="removePicture(1)" />
+                        <a href="#" onclick="favPictures(1)" id="link1" style="display: none;">Remove</a>
+                    </td>
+                    <td style="padding: 5px;">
+                        <img name="favorites" height="100" onclick="removePicture(2)" />
+                        <a href="#" onclick="favPictures(2)" id="link2" style="display: none;">Remove</a>
+                    </td>
+                    <td style="padding: 5px;">
+                        <img name="favorites" height="100" onclick="removePicture(3)" />
+                        <a href="#" onclick="favPictures(3)" id="link3" style="display: none;">Remove</a>
+                    </td>
+                    <td style="padding: 5px;">
+                        <img name="favorites" height="100" onclick="removePicture(4)" />
+                        <a href="#" onclick="favPictures(4)" id="link4" style="display: none;">Remove</a>
+                    </td>
+                </tr>
+            </table>
+          <p><em>Created by Marwa Mahmoud - June 2021 </em></p>
+        </footer>
+       
+    </div>
+
+    <script src="photogallery.js"></script>
+</body>
+</html>
